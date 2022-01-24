@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid and container test</title>
+
+    <!--font awasam link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--google fonts start-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <!--google font end-->
+    <!-- bootstrap4 cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container text-center">
+    <header>
+
+        <nav class="navbar navbar-expand-md">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span> <i class="fas fa-bars navbar-icon"></i> </span>
+            </button>
+
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.jpg" alt="logo">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-center text-md-left" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center text-md-left" href="#about-me">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center text-md-left" href="#tutorial">Tutorials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center text-md-left" href="#feedback">Feedback</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center text-md-left" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+       <section id="banner">
+           <div class="banner-container d-flex justify-content-center align-items-center">
+               <div class="banner-contents">
+                   <h1 class="font-weight-bolder text-white mb-5">Any one can Code</h1>
+                   <button class="btn btn-primary mr-3 btn-lg" onclick="location.href='#tutorial'"><span><i class="fas fa-play mr-2"></i></span>Tutorial</button>
+                   <button class="btn btn-primary mr-3 btn-lg request-callback" onclick="window.open('https://www.w3schools.com/')"><span><i class="fab fa-youtube mr-2"></i></span>subscribe</button>
+               </div>
+           </div>
+       </section>
+
+    </header>
+
+    <main>
+
+     <!--   features start-->
+        <section id="features" >
+            <div class="row">
+                <div class="col-lg-4 d-block d-lg-flex">
+                    <div class="features-col text-center">
+                        <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+                        <h5 class="font-weight-bold">Free to use</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's standard
+                            lectronic typesetting, remaining essentially unchanged.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-block d-lg-flex">
+                    <div class="features-col text-center ">
+                        <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+                        <h5 class="font-weight-bold">Free to use</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's standard
+                            lectronic typesetting, remaining essentially unchanged.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-block d-lg-flex">
+                    <div class="features-col text-center">
+                        <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+                        <h5 class="font-weight-bold">Free to use</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's standard
+                            lectronic typesetting, remaining essentially unchanged.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--   features start-->
+
+       <!-- about me start-->
+        <section id="about-me">
+
+            <div class="section-title">
+             <h3 class="text-center">About Me</h3>
+                <hr class="hr-style">
+            </div>
+
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="basic-description text-center text-lg-left ">
+                        <i class="far fa-user fa-3x icon-style rounded-circle"></i>
+                        <h5 class="font-weight-bolder">Personal Info </h5>
+                        <p>Name: Mahedi Hasan</p>
+                        <p>Profession : Software Engineer</p>
+                        <p>Current address : Dhaka, Bangladesh</p>
+                        <p>Website: <a href="https://www.facebook.com/ahmmahedi.hasansuvro" target="blank">www.mahedi2022.com</a> </p>
+                        <p><a href="#" target="blank" download="">
+                                <button class="btn btn-primary">Download CV</button>
+                            </a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col-lg-7"></div>
+                <div class="col-lg-5">
+                    <div class="achieve-desc text-center text-lg-left">
+                        <i class="icon-style rounded-circle fas fa-trophy fa-2x"></i>
+                        <h5 class="font-weight-bolder">Achievements</h5>
+                        <p><span>100% Tuition Waiver: </span> Based on excellent academic result in Tampere university, Finland</p> <br>
+                        <p><span>Public Bank Scholarship: </span>  40,000 TK, For scoring GPA 3.92/4.00 in B.Sc.</p> <br>
+                        <p><span>Silver Button: </span>  from YouTube because of 100,000 Subscribers. Current Subscribers are more than 208,000.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-5">
+                 <div class="skill-desc text-center text-lg-left">
+                 <i class="fas fa-briefcase fa-2x icon-style rounded-circle"></i>
+                     <h5 class="font-weight-bolder">Skills</h5>
+                     <table>
+                         <tr>
+                             <td>HTML</td>
+                             <td>
+                                 <span class="star">
+                                     <i class="fas fa-star"></i>
+                                     <i class="fas fa-star"></i>
+                                     <i class="fas fa-star"></i>
+                                     <i class="fas fa-star"></i>
+                                     <i class="far fa-star"></i>
+                                 </span>
+                             </td>
+                         </tr>
+                         <tr>
+                             <td>CSS</td>
+                             <td>
+                                 <span class="star">
+                                     <i class="fas fa-star"></i>
+                                     <i class="fas fa-star"></i>
+                                     <i class="fas fa-star"></i>
+                                     <i class="far fa-star"></i>
+                                     <i class="far fa-star"></i>
+                                 </span>
+                             </td>
+                         </tr>
+                         <tr>
+                             <td>JS</td>
+                             <td>
+                                 <span class="star">
+                                     <i class="fas fa-star"></i>
+                                     <i class="fas fa-star"></i>
+                                     <i class="fas fa-star-half"></i>
+                                     <i class="far fa-star"></i>
+                                     <i class="far fa-star"></i>
+                                 </span>
+                             </td>
+                         </tr>
+                     </table>
+                 </div>
+                </div>
+            </div>
+
+
+
+        </section>
+       <!-- about me end-->
+
+        <!--Tutorial start here-->
+
+        <section id="tutorial">
+            <div class="section-title">
+                <h3 class="text-center">Tutorial</h3>
+                <hr class="hr-style">
+            </div>
+
+            <div class="row text-center mb-2">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card mb-5 m-lg-0">
+                        <img src="images/card-1.JPG" alt="card image">
+                        <div class="card-img-top card-body text-center">
+                            <h3 class="card-title font-weight-bolder">Tour BD</h3>
+                            <a href="#" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card mb-5 m-lg-0">
+                        <img src="images/card-1.JPG" alt="card image">
+                        <div class="card-img-top card-body text-center">
+                            <h3 class="card-title font-weight-bolder">Tour BD</h3>
+                            <a href="#" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card mb-5 m-lg-0">
+                        <img src="images/card-1.JPG" alt="card image">
+                        <div class="card-img-top card-body text-center">
+                            <h3 class="card-title font-weight-bolder">Tour BD</h3>
+                            <a href="#" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card mb-5 m-lg-0 mb-2">
+                        <img src="images/card-1.JPG" alt="card image">
+                        <div class="card-img-top card-body text-center">
+                            <h3 class="card-title font-weight-bolder">Tour BD</h3>
+                            <a href="#" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row text-center mb-2">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card mb-5 m-lg-0">
+                        <img src="images/card-1.JPG" alt="card image">
+                        <div class="card-img-top card-body text-center">
+                            <h3 class="card-title font-weight-bolder">Tour BD</h3>
+                            <a href="#" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card mb-5 m-lg-0">
+                        <img src="images/card-1.JPG" alt="card image">
+                        <div class="card-img-top card-body text-center">
+                            <h3 class="card-title font-weight-bolder">Tour BD</h3>
+                            <a href="#" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card mb-5 m-lg-0">
+                        <img src="images/card-1.JPG" alt="card image">
+                        <div class="card-img-top card-body text-center">
+                            <h3 class="card-title font-weight-bolder">Tour BD</h3>
+                            <a href="#" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card mb-5 m-lg-0 mb-2">
+                        <img src="images/card-1.JPG" alt="card image">
+                        <div class="card-img-top card-body text-center">
+                            <h3 class="card-title font-weight-bolder">Tour BD</h3>
+                            <a href="#" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--Tutorial start end-->
+
+
+       <!-- feedback start-->
+        <section id="feedback">
+            <div class="section-title">
+                <h3 class="text-center">Feedback</h3>
+                <hr class="hr-style">
+            </div>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p>1.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat eros id diam fermentum euismod. Nam varius finibus tellus eget laoreet. Cras auctor tellus eu ante hendrerit, in viverra leo fringilla. Nunc laoreet magna eu tellus pulvinar, nec porttitor diam malesuada. Orci varius natoque penatibus et mag</p>
+                        <img src="images/car1.jpg" class="rounded-circle fedback-img" alt="feedback image">
+                        <h6>Mahedi Hasan</h6>
+                    </div>
+                    <div class="carousel-item">
+                        <p>2.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat eros id diam fermentum euismod. Nam varius finibus tellus eget laoreet. Cras auctor tellus eu ante hendrerit, in viverra leo fringilla. Nunc laoreet magna eu tellus pulvinar, nec porttitor diam malesuada. Orci varius natoque penatibus et mag</p>
+                        <img src="images/car1.jpg"  class="rounded-circle fedback-img" alt="feedback image">
+                        <h6>Mahedi Hasan</h6>
+                    </div>
+                    <div class="carousel-item">
+                        <p>3.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat eros id diam fermentum euismod. Nam varius finibus tellus eget laoreet. Cras auctor tellus eu ante hendrerit, in viverra leo fringilla. Nunc laoreet magna eu tellus pulvinar, nec porttitor diam malesuada. Orci varius natoque penatibus et mag</p>
+                        <img src="images/car1.jpg"  class="rounded-circle  fedback-img" alt="feedback image">
+                        <h6>Mahedi Hasan</h6>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+      <!--  feedback end-->
+
+        <!--contact me start here-->
+        <section id="contact">
+            <div class="section-title">
+                <h3 class="text-center">Contact me</h3>
+                <hr class="hr-style">
+            </div>
+           <div class="row">
+               <div class="col-lg-12">
+                   <form action="mailto:mahedisoftbdltd@gmail.com" method="post" enctype="text/plain" class="was-validated">
+                       <div class="form-group">
+                           <label for="fullname" class="text-left" name="fullname" style="text-align: left">Fullname</label>
+                           <input type="text" class="form-control" name="fullname" required>
+                           <div class="valid-feedback" style="color: #e8ded2">Valide</div>
+                           <div class="invalid-feedback">invalide</div>
+                       </div>
+                       <div class="form-group">
+                           <label for="email" class="text-left" name="email" style="text-align: left">Email</label>
+                           <input type="email" class="form-control" name="email" required>
+                       </div>
+
+                       <div class="form-group">
+                           <label for="message" class="text-left" name="message" style="text-align: left">Message</label>
+                           <textarea style="resize: none" name="message" id="message" cols="30" rows="4" class="form-control"></textarea>
+                       </div>
+
+                       <div class="form-group text-center">
+                           <input type="submit" class="btn btn-primary mr-2" value="submit">
+                           <input type="submit" class="btn btn-primary" value="reset">
+                       </div>
+
+                   </form>
+               </div>
+           </div>
+        </section>
+        <!--contact me end here -->
+
+    </main>
+
+    <footer>
+
+ <div class="row">
+     <div class="col-lg-6">
+         <p class="small mb-0 mt-1 ">&copy; Copyright Mahedi Hasan</p>
+     </div>
+     <div class="col-lg-6">
+         <a href="#">Home</a>
+         <a href="#"><i class="fab fa-facebook"></i></a>
+         <a href="#"><i class="fab fa-youtube"></i></a>
+         <a href="#"><i class="fab fa-instagram"></i></a>
+         <a href="#"><i class="fab fa-twitter"></i></a>
+     </div>
+ </div>
+    </footer>
+</div>
+
+
+<!-- bootstrap js, jquery, popper -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
